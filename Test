@@ -18,7 +18,7 @@ public class Test {
     @org.junit.Test
     public void additionUnitTestFalse() {
         try {
-            assertTrue(Addition.add(5, 5) == 7);
+            assertFalse(Addition.add(5, 5) == 7);
         } catch (Exception e) {
             System.out.println("Exception: " + e.getMessage());
         }
