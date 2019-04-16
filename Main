@@ -1,0 +1,23 @@
+/*
+Project: Lab 14
+Feature: Calculator
+Course: IST 242-001
+Author: Teresa Barker
+Date Developed: 4/16/2019
+Last Date Changed: 4/16/2019
+Rev: starting the program
+*/
+
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        int num1 = 5;
+        int num2 = 4;
+
+        System.out.println(Addition.add(num1, num2));
+
+    }
+}
